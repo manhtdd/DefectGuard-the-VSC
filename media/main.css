@@ -1,0 +1,58 @@
+body {
+  background-color: transparent;
+}
+
+.commit-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Style for the outer commit-box */
+.commit-box {
+  background-color: rgba(128, 128, 128, 0.3);
+  width: 100%;
+  margin: 4px 0;
+  border-radius: 6px;
+  padding: 4px;
+}
+
+/* Style for the commit-info container */
+.commit-info {
+  display: flex;
+  font-size: medium;
+  margin-bottom: 4px;
+}
+
+/* Style for the commit-hash */
+.commit-hash {
+  flex-basis: 50%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Style for the probability */
+.probability {
+  flex-basis: 50%;
+  text-align: right;
+}
+
+/* Style for the commit-bg container */
+.commit-bg {
+  width: 100%;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 6px;
+}
+
+/* Style for the commit-bar */
+.commit-bar {
+  width: 0%;
+  height: 20px;
+  border-radius: 6px;
+}
+
+.run-button {
+  display: block;
+  border: none;
+  margin: 0 auto;
+}
